@@ -15,7 +15,7 @@ header{
     background: white;
 }
 
-ul{
+.header-menu{
     list-style: none;
     font-family: 'Poppins';
     font-style: normal;
@@ -66,9 +66,9 @@ ul{
     color: #FFFFFF;
     background: #FF9900;
     border-radius: 4px;
+    border: none;
     width: 110px;
     height: 46px;
-    border: none;
 }
 
 a:link {
@@ -343,5 +343,56 @@ h4{
     gap: 82px;
     align-items: center;
     justify-content: space-between;
+}
 
+/*FOOTER*/
+
+footer{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 35px;
+    /* or 219% */
+    color: #544837;    margin: auto;
+    margin-top: 146px;
+    margin-bottom: 83px;
+    width: 80%;
+}
+
+.line{
+    min-width: 1109;
+    height: 1px;
+    background: rgba(188, 208, 229, 0.496913);
+    margin-bottom: 102px;
+}
+
+.footer_menu{
+    list-style: none;
+}
+
+.section_footer{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 82px;
+}
+
+.footer_menu-container{
+    display: flex;
+    gap: 129px;
+}
+
+.email-box{
+    width: 325px;
+    height: 48px;
+    background: #FFFFFF;
+    border: 1px solid #BCD0E5;
+    border-radius: 4px;
+}
+
+.sign-now{
+    width: 131px;
+    height: 39px;
+    margin-top: 21px;
 }
