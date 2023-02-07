@@ -141,3 +141,7 @@ h1{
     align-items: center;
     gap: 30px;
 }
+
+.section__one-txt{
+    max-width: 458px;
+}
